@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src ="jquery-3.3.1.js"></script>
+        <script src="questions.json"></script>
+         <script src="quiz.js"></script>
+         
+         <title>EzQuiz</title>
+    </head>
+    <body>
+        <div id="loginBox" hidden>
+                 <form name="loginForm" id="loginForm">
+                 <label for="username">Username:</label>
+                 <input type="text" id="username" size="12" placeholder="Username"><br/>
+                 <label for="password">Password:</label>
+                 <input type="password" id="password" size="12" placeholder="******"><br/>
+                 <input type="submit" class="Button" id="loginSubmit" value="Login">
+                 <input type="button" class="Button" id="registerButton" value="Register">
+                 </form>
+            </div>
+        <div id="header">
+            <h2>EzQuiz</h2>
+            <input type="button" value="Sign in" id="loginButton" class="headerButton">
+            <div id="usernameBox"></div>
+        </div>
+        <div id="questionBox">
+            <h2></h2>
+            <ul id="questionList">
+            </ul>
+            <input type="button" value="Back" id="backButton" class="button">
+            <input type="button" value="Next" id="nextButton" class="button">
+        </div>
+        
+    </body>
+</html>

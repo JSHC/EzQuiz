@@ -1,0 +1,5 @@
+questionData = [
+        {question : "How many oscars did the movie 'Titanic' get?", choices : ["11", "9", "13", "7"], correctAnswer : 0},
+        {question : "In computing what is RAM short for?", choices : ["Random Alert Memory", "Read Access Memory", "Read Alert Magnet", "Random Access Memory"], correctAnswer : 3},
+        {question : "Written by Neil Diamond, which song was UB40s first No. 1 UK hit?", choices : ["Red Red Wine", "Kingston Town", "(I Can't Help) Falling in Love With You", "I Got You Babe"], correctAnswer: 0}
+    ];
